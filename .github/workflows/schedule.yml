@@ -14,5 +14,5 @@ jobs:
         uses: Nuung/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: f9cfcc37f237549165fd0af0b544d4aaf71ca999
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
